@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Flickr API</title>
+</head>
+
+<body>
+	<h1>Thumbnails</h1>
+
+	<h3>Goal</h3>
+    <p>As a user, I want to search for nearby images based on coordinates, and see thumbnails with tags based on content.</p>
+
+    <h3>Live demo</h3>
+
+    <div>
+        <form>
+            <div>
+                <label>Enter the Latitude</label>
+                <input type="number" id="lat" placeholder="latitude" />
+            </div>
+            <div>
+                <label>Enter the Longitude</label>
+                <input type="number" id="long" placeholder="longitude" />
+            </div>
+            <input type="button" id="submit" value="Submit" />
+        </form>
+    </div>
+    <div id="photos" style="margin-bottom: 50px;"></div>
+    
+    <!-- Attach jQuery library -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<!-- Attach all the bundles JavaScript files in /src/js -->
+	<script src="/js/critical.js"></script>
+	<!-- Execute page specific function -->
+	<script>getFlickrPhotosByLocation();</script>
+</body>
+</html>

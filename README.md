@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # JS web app starter kit
 ## Domain Design employees
 
@@ -18,3 +19,6 @@ See [Tools](TOOLS.md)
 See mark assessment rules for
 * [jQuery course](./public/jQuery#assessment)
 * [Social Third-Party APIs course](./public/social-apis#assessment)
+=======
+# shwetap123
+>>>>>>> 4cc07ba648738e06c0892827efa17351bd5c8589
